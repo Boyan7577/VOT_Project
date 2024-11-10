@@ -1,30 +1,30 @@
 ## VOT Project
 
 
-## **Topic:** Containerization of a database application
+## **Заглавие:** Контейнеризация на приложение с база данни
 
 [Presentation Link](https://docs.google.com/presentation/d/1_O8RlYBepFJ_p4D_kgbbtEYLQEAibMY0EqgfNf-o0dI/edit?hl=en-GB#slide=id.p)
 
 
-## **Description:** 
+## **Описание на проекта:** 
 
-Това проект, който е базиран на Flask уеб приложение за управление на мрежови устройства (напр. маршрутизатор, комутатор, компютър, сървър). Устройствата се съхраняват в SQLite база данни.
+Това е проект, който е базиран на Flask уеб приложение за управление на мрежови устройства (напр. маршрутизатор, комутатор, компютър, сървър). Устройствата се съхраняват в SQLite база данни.
 Функциите му включват добавяне, преглед и изтриване на мрежови устройства, валидиране на IP адреси и избиране на предварително зададени типове устройства, както и тяхната локация.
 
 ## **Приложение:**
 
 - Начален преглед:
   
-![Website](![image](https://github.com/user-attachments/assets/f0a9fa9c-4e54-4a10-aa92-f5a2218ebd71)
+!(![image](https://github.com/user-attachments/assets/f0a9fa9c-4e54-4a10-aa92-f5a2218ebd71)
 
 
 - Добавено устройство:
   
-![Website](![image](https://github.com/user-attachments/assets/dc5abff2-1659-419e-a162-8db2249e8e21)
+!(![image](https://github.com/user-attachments/assets/dc5abff2-1659-419e-a162-8db2249e8e21)
 
 
 - Тип устройство:
-![Website](![image](https://github.com/user-attachments/assets/365f4739-f558-4bc0-b89b-95204681d3b6)
+!(![image](https://github.com/user-attachments/assets/365f4739-f558-4bc0-b89b-95204681d3b6)
 
 
 
@@ -49,6 +49,7 @@
 1. Клонирайте хранилището от GitHub на вашия компютър:
 
 `git clone https://github.com/Boyan7577/VOT_Project.git`
+
 `cd VOT_Project`
 
 2. След като се уверите, че сте в директорията на проекта, изградете Docker image:
@@ -61,7 +62,7 @@
 
 4. За да достъпите приложението, отворете браузър и въведете:
 
-**([http://localhost:5000])**
+[http://localhost:5000]
 
 Ще видите началната страница на приложението, където можете да добавяте, преглеждате и изтривате мрежови устройства.
 
