@@ -15,16 +15,17 @@
 
 - Начален преглед:
   
-!(![image](https://github.com/user-attachments/assets/f0a9fa9c-4e54-4a10-aa92-f5a2218ebd71)
+![image](https://github.com/user-attachments/assets/f0a9fa9c-4e54-4a10-aa92-f5a2218ebd71)
 
 
 - Добавено устройство:
   
-!(![image](https://github.com/user-attachments/assets/dc5abff2-1659-419e-a162-8db2249e8e21)
+![image](https://github.com/user-attachments/assets/dc5abff2-1659-419e-a162-8db2249e8e21)
 
 
 - Тип устройство:
-!(![image](https://github.com/user-attachments/assets/365f4739-f558-4bc0-b89b-95204681d3b6)
+![image](https://github.com/user-attachments/assets/365f4739-f558-4bc0-b89b-95204681d3b6)
+
 
 
 
@@ -52,23 +53,28 @@
 
 `cd VOT_Project`
 
+
 2. След като се уверите, че сте в директорията на проекта, изградете Docker image:
 
 `docker-compose build`
+
 
 3. Стартирайте контейнера, който ще задейства приложението:
 
 `docker compose up`
 
+
 4. За да достъпите приложението, отворете браузър и въведете:
 
-[http://localhost:5000]
+`http://localhost:5000`
 
 Ще видите началната страница на приложението, където можете да добавяте, преглеждате и изтривате мрежови устройства.
+
 
 5. За да спрете приложението, използвайте:
 
 `docker-compose down`
+
 
 
 ## **Участници:**
